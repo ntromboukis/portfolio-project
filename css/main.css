@@ -1,0 +1,99 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+* {
+	font-family: 'Raleway', sans-serif;
+}
+
+
+@media only screen and (max-width: 992px) {
+	header {
+		text-align: center;
+	}
+	.centered {
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.logo {
+		margin-top: 20px;
+	}
+}
+
+
+@media only screen and (min-width: 993px){
+	header {
+		text-align: right;
+	}
+	.name {
+		float: right;
+		text-align: right;
+	}
+	.logo {
+		margin-top: 10px;
+	}
+}
+
+
+.banner {
+	padding: 5%;
+	max-width: 100%;
+	position: relative;
+}
+
+
+.skills {
+	padding: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+.re-sized {
+	height: auto;
+	width: auto;
+	max-width: 100px;
+	max-height: 100px;
+}
+
+
+h1 {
+	font-size: 200%;
+	font-family: 'Lato', sans-serif;
+	color: #5b5b5b;
+}
+
+
+h2 {
+	font-size: 100%;
+	margin-top: 0px;
+	padding-bottom: .5%;
+}
+
+
+h3 {
+	text-align: center;
+	font-size: 210%;
+	font-family: 'Poiret One', cursive;
+	color: #5b5b5b;
+}
+
+
+h4 {
+	font-size: 150%;
+	color: #5b5b5b;
+	text-align: center;
+	border-radius: 6px;
+}
+
+
+p {
+	font-size: 100%;
+	text-align: center;
+	color: #5b5b5b;
+}
